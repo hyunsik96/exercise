@@ -37,8 +37,8 @@ public class MemberDao {
 	public MemberDao() {
 		
 		try {
-			
-//			prop.loadFromXML(new FileInputStream("resources/query.xml"));
+			prop.loadFromXML(new FileInputStream("resources/query.xml"));
+			prop.loadFromXML(new FileInputStream("resources/query.xml"));
 			
 //			https://github.com/hyunsik96/exercise.git///
 			
