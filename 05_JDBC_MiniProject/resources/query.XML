@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+
+	<entry key="selectAll">
+		SELECT * 
+		FROM PRODUCT
+	</entry>
+	
+	<entry key="insertProduct">
+		INSERT INTO PRODUCT
+		VALUES(?, ?, ?, ?, ?)
+	</entry>
+
+	<entry key="selectByProductName">
+		SELECT *
+		FROM PRODUCT
+		WHERE PRODUCT_NAME LIKE ?
+	</entry>
+
+	<entry key="updateProduct">
+		UPDATE PRODUCT
+		SET PRICE = ?,
+			DESCRIPTION = ?,
+			STOCK = ?
+		WHERE PRODUCT_ID = ?
+	</entry>
+	
+	<entry key="deleteProduct">
+		DELETE FROM PRODUCT
+		WHERE PRODUCT_ID = ?
+	</entry>
+	
+	<entry key="selctByDescription">
+	    SELECT * 
+	    FROM PRODUCT
+	    WHERE DESCRIPTION LIKE ?
+    </entry>
+	
+</properties>
