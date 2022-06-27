@@ -6,7 +6,7 @@ import com.kh.model.dao.MemberDao;
 import com.kh.model.service.MemberService;
 import com.kh.model.vo.Member;
 import com.kh.view.MemberView;
-
+zzz
 /*
  * * Controller : View 를 통해서 요청받은 기능을 처리하는 담당
  * 				   해당 메소드로 전달된 데이터 (매개변수) 를 가공처리 (VO 객체의 각 필드에 변수값들을 담겠다) 한후 
