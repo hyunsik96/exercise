@@ -21,7 +21,7 @@ public class ProductController {
 		}
 	}
 	
-	// 상품 추가 요청을 처리해주는 메소드
+	// 상품 추가 요청을 처리해주는 메소드 ㅋㅋㅋㅋㅋ
 	public void insertProduct(String productId, String productName,
 			  				  int price, String description, int stock) {
 		
