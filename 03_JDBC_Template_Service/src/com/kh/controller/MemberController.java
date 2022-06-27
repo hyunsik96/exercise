@@ -6,13 +6,14 @@ import com.kh.model.dao.MemberDao;
 import com.kh.model.service.MemberService;
 import com.kh.model.vo.Member;
 import com.kh.view.MemberView;
-zzz
+
 /*
  * * Controller : View 를 통해서 요청받은 기능을 처리하는 담당
  * 				   해당 메소드로 전달된 데이터 (매개변수) 를 가공처리 (VO 객체의 각 필드에 변수값들을 담겠다) 한후 
  * 				  Dao 메소드를 호출할 때 전달 (매개변수로 보내겠다)
  * 				  Dao 로부터 반환받은 결과 (리턴값) 에 따라서 사용자가 보게 될 화면을 지정해주는 역할
  * 				  (View 의 응답화면을 결정해주는 역할 => View 응답화면에 해당되는 메소드를 호출)
+ *			추카추카추가
  */
 public class MemberController {
 
